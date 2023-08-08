@@ -1,0 +1,35 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.digti.hibernate.Servlet.bean.AadharDetails" table="Aadhar">
+		<id name="id" column="id"></id>
+		<property name="name">
+			<column name="name" />
+		</property>
+		<property name="fname">
+			<column name="fname" />
+		</property>
+		<property name="age">
+			<column name="age" />
+		</property>
+		<property name="phno">
+			<column name="phno" />
+		</property>
+		<property name="address">
+			<column name="address" />
+		</property>
+		<property name="city">
+			<column name="city" />
+		</property>
+		<property name="state">
+			<column name="state" />
+		</property>
+		<property name="pincode">
+			<column name="pincode" />
+		</property>
+		<property name="email">
+			<column name="email" />
+		</property>
+	</class>
+</hibernate-mapping>
